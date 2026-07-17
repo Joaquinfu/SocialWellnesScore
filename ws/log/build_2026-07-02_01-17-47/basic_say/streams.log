@@ -1,0 +1,22 @@
+[0.399s] Invoking command in '/home/user/exchange/ws/src/basic_say': AMENT_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs LD_LIBRARY_PATH=/home/user/exchange/ws/install/sample_skill_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/ws/build/basic_say/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages:/home/user/exchange/ws/install/sample_skill_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_say build --build-base /home/user/exchange/ws/build/basic_say/build install --record /home/user/exchange/ws/build/basic_say/install.log --single-version-externally-managed install_data
+[0.537s] running egg_info
+[0.537s] writing ../../build/basic_say/basic_say.egg-info/PKG-INFO
+[0.538s] writing dependency_links to ../../build/basic_say/basic_say.egg-info/dependency_links.txt
+[0.538s] writing entry points to ../../build/basic_say/basic_say.egg-info/entry_points.txt
+[0.538s] writing requirements to ../../build/basic_say/basic_say.egg-info/requires.txt
+[0.538s] writing top-level names to ../../build/basic_say/basic_say.egg-info/top_level.txt
+[0.539s] reading manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+[0.540s] adding license file 'LICENSE'
+[0.540s] writing manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+[0.540s] running build
+[0.540s] running build_py
+[0.541s] running install
+[0.541s] running install_lib
+[0.542s] running install_data
+[0.542s] running install_egg_info
+[0.543s] removing '/home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say-0.1.0-py3.10.egg-info' (and everything under it)
+[0.543s] Copying ../../build/basic_say/basic_say.egg-info to /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say-0.1.0-py3.10.egg-info
+[0.545s] running install_scripts
+[0.558s] Installing start_skill script to /home/user/exchange/ws/install/basic_say/lib/basic_say
+[0.558s] writing list of installed files to '/home/user/exchange/ws/build/basic_say/install.log'
+[0.573s] Invoked command in '/home/user/exchange/ws/src/basic_say' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs LD_LIBRARY_PATH=/home/user/exchange/ws/install/sample_skill_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/ws/build/basic_say/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages:/home/user/exchange/ws/install/sample_skill_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_say build --build-base /home/user/exchange/ws/build/basic_say/build install --record /home/user/exchange/ws/build/basic_say/install.log --single-version-externally-managed install_data

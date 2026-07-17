@@ -1,0 +1,3 @@
+[console_scripts]
+run_app = emotion_mirror.run_app:main
+

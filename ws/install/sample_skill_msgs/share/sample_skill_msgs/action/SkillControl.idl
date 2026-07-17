@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from sample_skill_msgs/action/SkillControl.action
+// generated code does not contain a copyright notice
+
+#include "std_skills/msg/Feedback.idl"
+#include "std_skills/msg/Meta.idl"
+#include "std_skills/msg/Result.idl"
+
+module sample_skill_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "sample action message to control (start/stop) a generic skill." "\n"
+      "This is for illustration purpose: you probably will want to" "\n"
+      "eg pass custom data to configure your skill, or return specific" "\n"
+      "values: feel free to modify it as needed.")
+    struct SkillControl_Goal {
+      std_skills::msg::Meta meta;
+
+      string skill_data;
+    };
+    struct SkillControl_Result {
+      std_skills::msg::Result result;
+
+      string value;
+    };
+    struct SkillControl_Feedback {
+      std_skills::msg::Feedback feedback;
+    };
+  };
+};

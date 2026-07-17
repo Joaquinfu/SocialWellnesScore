@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-55b4a78db0e2cfdc30dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "sample_skill_msgs__py",
+					"jsonFile" : "directory-sample_skill_msgs__py-fa2bf0231cc208d88d1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/exchange/ws/build/sample_skill_msgs/sample_skill_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sample_skill_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sample_skill_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sample_skill_msgs_egg-0c48395aeb797267d6b5.json",
+					"name" : "ament_cmake_python_build_sample_skill_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sample_skill_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sample_skill_msgs-11932422ae54cc483bf6.json",
+					"name" : "ament_cmake_python_copy_sample_skill_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs-59f785c6a3febf8c60d5.json",
+					"name" : "sample_skill_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__cpp-d2f12d0e04779f43c1d7.json",
+					"name" : "sample_skill_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sample_skill_msgs__py::@62f7e86c7f80bc7708bb",
+					"jsonFile" : "target-sample_skill_msgs__py-3ef42f512f7d8b0d9620.json",
+					"name" : "sample_skill_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_generator_c-12108170649b626d5b92.json",
+					"name" : "sample_skill_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_generator_py-61e2582cd94d1d1f6368.json",
+					"name" : "sample_skill_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_c-f7a5677d02ee2b703c62.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_c__pyext-707e576c3ab761e48cf2.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_cpp-700722aa6e7facf0df93.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_fastrtps_c-90987023f63da18dd7f7.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_fastrtps_c__pyext-79e5e788784e91c3d11a.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_fastrtps_cpp-d24a4c5b8ee1cb4d3f5d.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_introspection_c-1a45ee48b69d759f8e01.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_introspection_c__pyext-d835acb8f477f49c72ac.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs__rosidl_typesupport_introspection_cpp-c05be4968728356fbbc9.json",
+					"name" : "sample_skill_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_skill_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_skill_msgs_uninstall-d0f4ba70058ed1ae66d4.json",
+					"name" : "sample_skill_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8a71d9461be1eda6f4ea.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/exchange/ws/build/sample_skill_msgs",
+		"source" : "/home/user/exchange/ws/src/sample_skill_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

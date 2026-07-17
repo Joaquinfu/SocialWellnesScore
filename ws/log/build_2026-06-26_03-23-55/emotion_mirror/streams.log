@@ -1,0 +1,47 @@
+[0.581s] Invoking command in '/home/user/exchange/ws/src/emotion_mirror': PYTHONPATH=/home/user/exchange/ws/build/emotion_mirror/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emotion_mirror build --build-base /home/user/exchange/ws/build/emotion_mirror/build install --record /home/user/exchange/ws/build/emotion_mirror/install.log --single-version-externally-managed install_data
+[0.695s] running egg_info
+[0.696s] creating ../../build/emotion_mirror/emotion_mirror.egg-info
+[0.696s] writing ../../build/emotion_mirror/emotion_mirror.egg-info/PKG-INFO
+[0.697s] writing dependency_links to ../../build/emotion_mirror/emotion_mirror.egg-info/dependency_links.txt
+[0.697s] writing entry points to ../../build/emotion_mirror/emotion_mirror.egg-info/entry_points.txt
+[0.697s] writing requirements to ../../build/emotion_mirror/emotion_mirror.egg-info/requires.txt
+[0.697s] writing top-level names to ../../build/emotion_mirror/emotion_mirror.egg-info/top_level.txt
+[0.697s] writing manifest file '../../build/emotion_mirror/emotion_mirror.egg-info/SOURCES.txt'
+[0.698s] reading manifest file '../../build/emotion_mirror/emotion_mirror.egg-info/SOURCES.txt'
+[0.698s] adding license file 'LICENSE'
+[0.698s] writing manifest file '../../build/emotion_mirror/emotion_mirror.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.699s] running build_py
+[0.699s] creating /home/user/exchange/ws/build/emotion_mirror/build
+[0.699s] creating /home/user/exchange/ws/build/emotion_mirror/build/lib
+[0.700s] creating /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror
+[0.700s] copying emotion_mirror/mission_controller.py -> /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror
+[0.701s] copying emotion_mirror/__init__.py -> /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror
+[0.701s] copying emotion_mirror/run_app.py -> /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror
+[0.701s] running install
+[0.701s] running install_lib
+[0.702s] creating /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror
+[0.702s] copying /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror/mission_controller.py -> /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror
+[0.702s] copying /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror/__init__.py -> /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror
+[0.702s] copying /home/user/exchange/ws/build/emotion_mirror/build/lib/emotion_mirror/run_app.py -> /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror
+[0.703s] byte-compiling /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror/mission_controller.py to mission_controller.cpython-310.pyc
+[0.703s] byte-compiling /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror/__init__.py to __init__.cpython-310.pyc
+[0.704s] byte-compiling /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror/run_app.py to run_app.cpython-310.pyc
+[0.704s] running install_data
+[0.704s] copying package.xml -> /home/user/exchange/ws/install/emotion_mirror/share/emotion_mirror
+[0.704s] creating /home/user/exchange/ws/install/emotion_mirror/share/ament_index
+[0.704s] creating /home/user/exchange/ws/install/emotion_mirror/share/ament_index/resource_index
+[0.705s] creating /home/user/exchange/ws/install/emotion_mirror/share/ament_index/resource_index/packages
+[0.705s] copying res/emotion_mirror -> /home/user/exchange/ws/install/emotion_mirror/share/ament_index/resource_index/packages
+[0.706s] creating /home/user/exchange/ws/install/emotion_mirror/share/ament_index/resource_index/pal_system_module
+[0.706s] copying module/emotion_mirror -> /home/user/exchange/ws/install/emotion_mirror/share/ament_index/resource_index/pal_system_module
+[0.706s] creating /home/user/exchange/ws/install/emotion_mirror/share/emotion_mirror/launch
+[0.707s] copying launch/emotion_mirror.launch.py -> /home/user/exchange/ws/install/emotion_mirror/share/emotion_mirror/launch
+[0.707s] creating /home/user/exchange/ws/install/emotion_mirror/share/emotion_mirror/module
+[0.707s] copying module/emotion_mirror_module.yaml -> /home/user/exchange/ws/install/emotion_mirror/share/emotion_mirror/module
+[0.707s] running install_egg_info
+[0.709s] Copying ../../build/emotion_mirror/emotion_mirror.egg-info to /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror-0.1.0-py3.10.egg-info
+[0.710s] running install_scripts
+[0.723s] Installing run_app script to /home/user/exchange/ws/install/emotion_mirror/lib/emotion_mirror
+[0.724s] writing list of installed files to '/home/user/exchange/ws/build/emotion_mirror/install.log'
+[0.735s] Invoked command in '/home/user/exchange/ws/src/emotion_mirror' returned '0': PYTHONPATH=/home/user/exchange/ws/build/emotion_mirror/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emotion_mirror build --build-base /home/user/exchange/ws/build/emotion_mirror/build install --record /home/user/exchange/ws/build/emotion_mirror/install.log --single-version-externally-managed install_data

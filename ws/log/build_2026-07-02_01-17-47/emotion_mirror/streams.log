@@ -1,0 +1,22 @@
+[0.724s] Invoking command in '/home/user/exchange/ws/src/emotion_mirror': PYTHONPATH=/home/user/exchange/ws/build/emotion_mirror/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emotion_mirror build --build-base /home/user/exchange/ws/build/emotion_mirror/build install --record /home/user/exchange/ws/build/emotion_mirror/install.log --single-version-externally-managed install_data
+[0.873s] running egg_info
+[0.873s] writing ../../build/emotion_mirror/emotion_mirror.egg-info/PKG-INFO
+[0.874s] writing dependency_links to ../../build/emotion_mirror/emotion_mirror.egg-info/dependency_links.txt
+[0.875s] writing entry points to ../../build/emotion_mirror/emotion_mirror.egg-info/entry_points.txt
+[0.875s] writing requirements to ../../build/emotion_mirror/emotion_mirror.egg-info/requires.txt
+[0.875s] writing top-level names to ../../build/emotion_mirror/emotion_mirror.egg-info/top_level.txt
+[0.875s] reading manifest file '../../build/emotion_mirror/emotion_mirror.egg-info/SOURCES.txt'
+[0.877s] adding license file 'LICENSE'
+[0.878s] writing manifest file '../../build/emotion_mirror/emotion_mirror.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.879s] running install
+[0.879s] running install_lib
+[0.879s] running install_data
+[0.879s] running install_egg_info
+[0.879s] removing '/home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror-0.1.0-py3.10.egg-info' (and everything under it)
+[0.880s] Copying ../../build/emotion_mirror/emotion_mirror.egg-info to /home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages/emotion_mirror-0.1.0-py3.10.egg-info
+[0.882s] running install_scripts
+[0.896s] Installing run_app script to /home/user/exchange/ws/install/emotion_mirror/lib/emotion_mirror
+[0.896s] writing list of installed files to '/home/user/exchange/ws/build/emotion_mirror/install.log'
+[0.932s] Invoked command in '/home/user/exchange/ws/src/emotion_mirror' returned '0': PYTHONPATH=/home/user/exchange/ws/build/emotion_mirror/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emotion_mirror build --build-base /home/user/exchange/ws/build/emotion_mirror/build install --record /home/user/exchange/ws/build/emotion_mirror/install.log --single-version-externally-managed install_data

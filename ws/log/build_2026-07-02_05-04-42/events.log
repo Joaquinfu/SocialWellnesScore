@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (-) JobUnselected: {'identifier': 'basic_say'}
+[0.000684] (-) JobUnselected: {'identifier': 'emotion_mirror'}
+[0.000990] (-) JobUnselected: {'identifier': 'sample_skill_msgs'}
+[0.001134] (chatbot) JobQueued: {'identifier': 'chatbot', 'dependencies': OrderedDict()}
+[0.001202] (chatbot) JobStarted: {'identifier': 'chatbot'}
+[0.099813] (-) TimerEvent: {}
+[0.201075] (-) TimerEvent: {}
+[0.301417] (-) TimerEvent: {}
+[0.401820] (-) TimerEvent: {}
+[0.502186] (-) TimerEvent: {}
+[0.504383] (chatbot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chatbot', 'build', '--build-base', '/home/user/exchange/ws/build/chatbot/build', 'install', '--record', '/home/user/exchange/ws/build/chatbot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/exchange/ws/src/chatbot', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/exchange/ws/install/sample_skill_msgs/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/exchange/ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/user/exchange/ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-user', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'file:///etc/ros/pal/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/user/exchange/ws/install/basic_say:/home/user/exchange/ws/install/sample_skill_msgs:/home/user/exchange/ws/install/emotion_mirror:/opt/pal/alum:/opt/ros/humble', 'PWD': '/home/user/exchange/ws/build/chatbot', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/user/exchange/ws/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages:/home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages:/home/user/exchange/ws/install/sample_skill_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ws/install/emotion_mirror/lib/python3.10/site-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'PAL_DISTRO': 'alum', 'CMAKE_PREFIX_PATH': '/home/user/exchange/ws/install/sample_skill_msgs'}, 'shell': False}
+[0.602322] (-) TimerEvent: {}
+[0.702708] (-) TimerEvent: {}
+[0.717131] (chatbot) StdoutLine: {'line': b'running egg_info\n'}
+[0.717465] (chatbot) StdoutLine: {'line': b'creating ../../build/chatbot/chatbot.egg-info\n'}
+[0.718207] (chatbot) StdoutLine: {'line': b'writing ../../build/chatbot/chatbot.egg-info/PKG-INFO\n'}
+[0.718682] (chatbot) StdoutLine: {'line': b'writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt\n'}
+[0.718912] (chatbot) StdoutLine: {'line': b'writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt\n'}
+[0.719093] (chatbot) StdoutLine: {'line': b'writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt\n'}
+[0.719408] (chatbot) StdoutLine: {'line': b'writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt\n'}
+[0.719604] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.720621] (chatbot) StdoutLine: {'line': b"reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.720803] (chatbot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.721076] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.721319] (chatbot) StdoutLine: {'line': b'running build\n'}
+[0.721624] (chatbot) StdoutLine: {'line': b'running build_py\n'}
+[0.721668] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/build/chatbot/build\n'}
+[0.722076] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/build/chatbot/build/lib\n'}
+[0.722599] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/build/chatbot/build/lib/chatbot\n'}
+[0.723140] (chatbot) StdoutLine: {'line': b'copying chatbot/start_node.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot\n'}
+[0.723377] (chatbot) StdoutLine: {'line': b'copying chatbot/__init__.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot\n'}
+[0.723559] (chatbot) StdoutLine: {'line': b'copying chatbot/node_impl.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot\n'}
+[0.723877] (chatbot) StdoutLine: {'line': b'running install\n'}
+[0.724180] (chatbot) StdoutLine: {'line': b'running install_lib\n'}
+[0.724874] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.725457] (chatbot) StdoutLine: {'line': b'copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/start_node.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.725720] (chatbot) StdoutLine: {'line': b'copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/__init__.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.725899] (chatbot) StdoutLine: {'line': b'copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/node_impl.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.726463] (chatbot) StdoutLine: {'line': b'byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/start_node.py to start_node.cpython-310.pyc\n'}
+[0.727268] (chatbot) StdoutLine: {'line': b'byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc\n'}
+[0.727478] (chatbot) StdoutLine: {'line': b'byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/node_impl.py to node_impl.cpython-310.pyc\n'}
+[0.728634] (chatbot) StdoutLine: {'line': b'running install_data\n'}
+[0.728734] (chatbot) StdoutLine: {'line': b'copying package.xml -> /home/user/exchange/ws/install/chatbot/share/chatbot\n'}
+[0.728886] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/ament_index\n'}
+[0.729360] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index\n'}
+[0.729798] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/packages\n'}
+[0.730377] (chatbot) StdoutLine: {'line': b'copying res/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/packages\n'}
+[0.730552] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/chatbot/launch\n'}
+[0.730971] (chatbot) StdoutLine: {'line': b'copying launch/chatbot.launch.py -> /home/user/exchange/ws/install/chatbot/share/chatbot/launch\n'}
+[0.731422] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_system_module\n'}
+[0.731942] (chatbot) StdoutLine: {'line': b'copying module/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_system_module\n'}
+[0.732654] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/chatbot/module\n'}
+[0.733039] (chatbot) StdoutLine: {'line': b'copying module/chatbot_module.yaml -> /home/user/exchange/ws/install/chatbot/share/chatbot/module\n'}
+[0.733401] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_configuration.chatbot\n'}
+[0.733973] (chatbot) StdoutLine: {'line': b'copying config/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_configuration.chatbot\n'}
+[0.734167] (chatbot) StdoutLine: {'line': b'creating /home/user/exchange/ws/install/chatbot/share/chatbot/config\n'}
+[0.734720] (chatbot) StdoutLine: {'line': b'copying config/00-defaults.yml -> /home/user/exchange/ws/install/chatbot/share/chatbot/config\n'}
+[0.735095] (chatbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.736504] (chatbot) StdoutLine: {'line': b'Copying ../../build/chatbot/chatbot.egg-info to /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.1.0-py3.10.egg-info\n'}
+[0.738436] (chatbot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.753625] (chatbot) StdoutLine: {'line': b'Installing start_node script to /home/user/exchange/ws/install/chatbot/lib/chatbot\n'}
+[0.754422] (chatbot) StdoutLine: {'line': b"writing list of installed files to '/home/user/exchange/ws/build/chatbot/install.log'\n"}
+[0.770703] (chatbot) CommandEnded: {'returncode': 0}
+[0.781257] (chatbot) JobEnded: {'identifier': 'chatbot', 'rc': 0}
+[0.782251] (-) EventReactorShutdown: {}

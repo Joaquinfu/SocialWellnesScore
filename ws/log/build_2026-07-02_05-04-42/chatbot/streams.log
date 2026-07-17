@@ -1,0 +1,51 @@
+[0.507s] Invoking command in '/home/user/exchange/ws/src/chatbot': PYTHONPATH=/home/user/exchange/ws/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/user/exchange/ws/build/chatbot/build install --record /home/user/exchange/ws/build/chatbot/install.log --single-version-externally-managed install_data
+[0.716s] running egg_info
+[0.716s] creating ../../build/chatbot/chatbot.egg-info
+[0.717s] writing ../../build/chatbot/chatbot.egg-info/PKG-INFO
+[0.718s] writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt
+[0.718s] writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt
+[0.718s] writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt
+[0.718s] writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt
+[0.718s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.720s] reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.720s] adding license file 'LICENSE'
+[0.720s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] creating /home/user/exchange/ws/build/chatbot/build
+[0.721s] creating /home/user/exchange/ws/build/chatbot/build/lib
+[0.721s] creating /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+[0.722s] copying chatbot/start_node.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+[0.722s] copying chatbot/__init__.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+[0.722s] copying chatbot/node_impl.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+[0.723s] running install
+[0.723s] running install_lib
+[0.724s] creating /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.724s] copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/start_node.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.725s] copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/__init__.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.725s] copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/node_impl.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.725s] byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/start_node.py to start_node.cpython-310.pyc
+[0.726s] byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc
+[0.726s] byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/node_impl.py to node_impl.cpython-310.pyc
+[0.727s] running install_data
+[0.728s] copying package.xml -> /home/user/exchange/ws/install/chatbot/share/chatbot
+[0.728s] creating /home/user/exchange/ws/install/chatbot/share/ament_index
+[0.728s] creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index
+[0.729s] creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/packages
+[0.729s] copying res/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/packages
+[0.729s] creating /home/user/exchange/ws/install/chatbot/share/chatbot/launch
+[0.730s] copying launch/chatbot.launch.py -> /home/user/exchange/ws/install/chatbot/share/chatbot/launch
+[0.730s] creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_system_module
+[0.731s] copying module/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_system_module
+[0.732s] creating /home/user/exchange/ws/install/chatbot/share/chatbot/module
+[0.732s] copying module/chatbot_module.yaml -> /home/user/exchange/ws/install/chatbot/share/chatbot/module
+[0.732s] creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_configuration.chatbot
+[0.733s] copying config/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_configuration.chatbot
+[0.733s] creating /home/user/exchange/ws/install/chatbot/share/chatbot/config
+[0.734s] copying config/00-defaults.yml -> /home/user/exchange/ws/install/chatbot/share/chatbot/config
+[0.734s] running install_egg_info
+[0.735s] Copying ../../build/chatbot/chatbot.egg-info to /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.1.0-py3.10.egg-info
+[0.737s] running install_scripts
+[0.752s] Installing start_node script to /home/user/exchange/ws/install/chatbot/lib/chatbot
+[0.753s] writing list of installed files to '/home/user/exchange/ws/build/chatbot/install.log'
+[0.770s] Invoked command in '/home/user/exchange/ws/src/chatbot' returned '0': PYTHONPATH=/home/user/exchange/ws/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/user/exchange/ws/build/chatbot/build install --record /home/user/exchange/ws/build/chatbot/install.log --single-version-externally-managed install_data

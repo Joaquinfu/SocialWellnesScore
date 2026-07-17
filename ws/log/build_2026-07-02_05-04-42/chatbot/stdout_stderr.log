@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/chatbot/chatbot.egg-info
+writing ../../build/chatbot/chatbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt
+writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt
+writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt
+writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt
+writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/exchange/ws/build/chatbot/build
+creating /home/user/exchange/ws/build/chatbot/build/lib
+creating /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+copying chatbot/start_node.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+copying chatbot/__init__.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+copying chatbot/node_impl.py -> /home/user/exchange/ws/build/chatbot/build/lib/chatbot
+running install
+running install_lib
+creating /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/start_node.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/__init__.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+copying /home/user/exchange/ws/build/chatbot/build/lib/chatbot/node_impl.py -> /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot
+byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/start_node.py to start_node.cpython-310.pyc
+byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot/node_impl.py to node_impl.cpython-310.pyc
+running install_data
+copying package.xml -> /home/user/exchange/ws/install/chatbot/share/chatbot
+creating /home/user/exchange/ws/install/chatbot/share/ament_index
+creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index
+creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/packages
+copying res/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/packages
+creating /home/user/exchange/ws/install/chatbot/share/chatbot/launch
+copying launch/chatbot.launch.py -> /home/user/exchange/ws/install/chatbot/share/chatbot/launch
+creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_system_module
+copying module/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_system_module
+creating /home/user/exchange/ws/install/chatbot/share/chatbot/module
+copying module/chatbot_module.yaml -> /home/user/exchange/ws/install/chatbot/share/chatbot/module
+creating /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_configuration.chatbot
+copying config/chatbot -> /home/user/exchange/ws/install/chatbot/share/ament_index/resource_index/pal_configuration.chatbot
+creating /home/user/exchange/ws/install/chatbot/share/chatbot/config
+copying config/00-defaults.yml -> /home/user/exchange/ws/install/chatbot/share/chatbot/config
+running install_egg_info
+Copying ../../build/chatbot/chatbot.egg-info to /home/user/exchange/ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.1.0-py3.10.egg-info
+running install_scripts
+Installing start_node script to /home/user/exchange/ws/install/chatbot/lib/chatbot
+writing list of installed files to '/home/user/exchange/ws/build/chatbot/install.log'

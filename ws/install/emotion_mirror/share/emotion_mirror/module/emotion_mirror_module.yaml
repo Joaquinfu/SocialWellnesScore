@@ -1,0 +1,2 @@
+emotion_mirror:
+  launch: "emotion_mirror emotion_mirror.launch.py"

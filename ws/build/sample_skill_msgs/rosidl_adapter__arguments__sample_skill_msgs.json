@@ -1,0 +1,6 @@
+{
+  "package_name": "sample_skill_msgs",
+  "non_idl_tuples": [
+    "/home/user/exchange/ws/src/sample_skill_msgs:action/SkillControl.action"
+  ]
+}

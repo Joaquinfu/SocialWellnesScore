@@ -1,0 +1,51 @@
+[0.321s] Invoking command in '/home/user/exchange/ws/src/basic_say': AMENT_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs LD_LIBRARY_PATH=/home/user/exchange/ws/install/sample_skill_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/ws/build/basic_say/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages:/home/user/exchange/ws/install/sample_skill_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_say build --build-base /home/user/exchange/ws/build/basic_say/build install --record /home/user/exchange/ws/build/basic_say/install.log --single-version-externally-managed install_data
+[0.430s] running egg_info
+[0.430s] creating ../../build/basic_say/basic_say.egg-info
+[0.431s] writing ../../build/basic_say/basic_say.egg-info/PKG-INFO
+[0.431s] writing dependency_links to ../../build/basic_say/basic_say.egg-info/dependency_links.txt
+[0.431s] writing entry points to ../../build/basic_say/basic_say.egg-info/entry_points.txt
+[0.432s] writing requirements to ../../build/basic_say/basic_say.egg-info/requires.txt
+[0.432s] writing top-level names to ../../build/basic_say/basic_say.egg-info/top_level.txt
+[0.432s] writing manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+[0.433s] reading manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+[0.433s] adding license file 'LICENSE'
+[0.433s] writing manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+[0.433s] running build
+[0.433s] running build_py
+[0.433s] creating /home/user/exchange/ws/build/basic_say/build
+[0.433s] creating /home/user/exchange/ws/build/basic_say/build/lib
+[0.434s] creating /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+[0.434s] copying basic_say/start_skill.py -> /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+[0.434s] copying basic_say/skill_impl.py -> /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+[0.435s] copying basic_say/__init__.py -> /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+[0.435s] running install
+[0.435s] running install_lib
+[0.435s] creating /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+[0.436s] copying /home/user/exchange/ws/build/basic_say/build/lib/basic_say/start_skill.py -> /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+[0.436s] copying /home/user/exchange/ws/build/basic_say/build/lib/basic_say/skill_impl.py -> /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+[0.436s] copying /home/user/exchange/ws/build/basic_say/build/lib/basic_say/__init__.py -> /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+[0.436s] byte-compiling /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say/start_skill.py to start_skill.cpython-310.pyc
+[0.437s] byte-compiling /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say/skill_impl.py to skill_impl.cpython-310.pyc
+[0.437s] byte-compiling /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say/__init__.py to __init__.cpython-310.pyc
+[0.438s] running install_data
+[0.438s] copying package.xml -> /home/user/exchange/ws/install/basic_say/share/basic_say
+[0.438s] creating /home/user/exchange/ws/install/basic_say/share/ament_index
+[0.438s] creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index
+[0.439s] creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/packages
+[0.439s] copying res/basic_say -> /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/packages
+[0.439s] creating /home/user/exchange/ws/install/basic_say/share/basic_say/launch
+[0.440s] copying launch/basic_say.launch.py -> /home/user/exchange/ws/install/basic_say/share/basic_say/launch
+[0.440s] creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_system_module
+[0.440s] copying module/basic_say -> /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_system_module
+[0.441s] creating /home/user/exchange/ws/install/basic_say/share/basic_say/module
+[0.441s] copying module/basic_say_module.yaml -> /home/user/exchange/ws/install/basic_say/share/basic_say/module
+[0.441s] creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_configuration.basic_say
+[0.442s] copying config/basic_say -> /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_configuration.basic_say
+[0.442s] creating /home/user/exchange/ws/install/basic_say/share/basic_say/config
+[0.442s] copying config/00-defaults.yml -> /home/user/exchange/ws/install/basic_say/share/basic_say/config
+[0.442s] running install_egg_info
+[0.444s] Copying ../../build/basic_say/basic_say.egg-info to /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say-0.1.0-py3.10.egg-info
+[0.445s] running install_scripts
+[0.456s] Installing start_skill script to /home/user/exchange/ws/install/basic_say/lib/basic_say
+[0.457s] writing list of installed files to '/home/user/exchange/ws/build/basic_say/install.log'
+[0.467s] Invoked command in '/home/user/exchange/ws/src/basic_say' returned '0': AMENT_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/exchange/ws/install/sample_skill_msgs LD_LIBRARY_PATH=/home/user/exchange/ws/install/sample_skill_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/exchange/ws/build/basic_say/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages:/home/user/exchange/ws/install/sample_skill_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_say build --build-base /home/user/exchange/ws/build/basic_say/build install --record /home/user/exchange/ws/build/basic_say/install.log --single-version-externally-managed install_data

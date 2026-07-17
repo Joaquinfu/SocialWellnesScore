@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/basic_say/basic_say.egg-info
+writing ../../build/basic_say/basic_say.egg-info/PKG-INFO
+writing dependency_links to ../../build/basic_say/basic_say.egg-info/dependency_links.txt
+writing entry points to ../../build/basic_say/basic_say.egg-info/entry_points.txt
+writing requirements to ../../build/basic_say/basic_say.egg-info/requires.txt
+writing top-level names to ../../build/basic_say/basic_say.egg-info/top_level.txt
+writing manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+reading manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/basic_say/basic_say.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/exchange/ws/build/basic_say/build
+creating /home/user/exchange/ws/build/basic_say/build/lib
+creating /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+copying basic_say/start_skill.py -> /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+copying basic_say/skill_impl.py -> /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+copying basic_say/__init__.py -> /home/user/exchange/ws/build/basic_say/build/lib/basic_say
+running install
+running install_lib
+creating /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+copying /home/user/exchange/ws/build/basic_say/build/lib/basic_say/start_skill.py -> /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+copying /home/user/exchange/ws/build/basic_say/build/lib/basic_say/skill_impl.py -> /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+copying /home/user/exchange/ws/build/basic_say/build/lib/basic_say/__init__.py -> /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say
+byte-compiling /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say/start_skill.py to start_skill.cpython-310.pyc
+byte-compiling /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say/skill_impl.py to skill_impl.cpython-310.pyc
+byte-compiling /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/user/exchange/ws/install/basic_say/share/basic_say
+creating /home/user/exchange/ws/install/basic_say/share/ament_index
+creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index
+creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/packages
+copying res/basic_say -> /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/packages
+creating /home/user/exchange/ws/install/basic_say/share/basic_say/launch
+copying launch/basic_say.launch.py -> /home/user/exchange/ws/install/basic_say/share/basic_say/launch
+creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_system_module
+copying module/basic_say -> /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_system_module
+creating /home/user/exchange/ws/install/basic_say/share/basic_say/module
+copying module/basic_say_module.yaml -> /home/user/exchange/ws/install/basic_say/share/basic_say/module
+creating /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_configuration.basic_say
+copying config/basic_say -> /home/user/exchange/ws/install/basic_say/share/ament_index/resource_index/pal_configuration.basic_say
+creating /home/user/exchange/ws/install/basic_say/share/basic_say/config
+copying config/00-defaults.yml -> /home/user/exchange/ws/install/basic_say/share/basic_say/config
+running install_egg_info
+Copying ../../build/basic_say/basic_say.egg-info to /home/user/exchange/ws/install/basic_say/lib/python3.10/site-packages/basic_say-0.1.0-py3.10.egg-info
+running install_scripts
+Installing start_skill script to /home/user/exchange/ws/install/basic_say/lib/basic_say
+writing list of installed files to '/home/user/exchange/ws/build/basic_say/install.log'

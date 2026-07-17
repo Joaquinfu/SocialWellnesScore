@@ -1,0 +1,2 @@
+basic_say:
+  launch: "basic_say basic_say.launch.py"

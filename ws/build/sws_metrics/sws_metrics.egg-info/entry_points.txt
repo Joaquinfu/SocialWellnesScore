@@ -1,0 +1,5 @@
+[console_scripts]
+fake_hri_pub = sws_metrics.fake_hri_pub:main
+gaze_estimator = sws_metrics.gaze_estimator:main
+sws_aggregator = sws_metrics.sws_aggregator:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+start_node = chatbot.start_node:main
+
