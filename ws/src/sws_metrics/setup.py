@@ -37,6 +37,9 @@ setup(
              'sws_aggregator   = sws_metrics.sws_aggregator:main',
             # Node 6 — CSV logger (add last)
             # 'csv_logger       = sws_metrics.csv_logger:main',
+	    
+            # Node 7 - vocal_engagment
+	      'vocal_engagement = sws_metrics.vocal_engagement:main',
         ],
     },
 )

@@ -15,6 +15,7 @@ sws_metrics/gaze_estimator.py
 sws_metrics/interaction_freq.py
 sws_metrics/isolation_detect.py
 sws_metrics/sws_aggregator.py
+sws_metrics/vocal_engagement.py
 sws_metrics.egg-info/PKG-INFO
 sws_metrics.egg-info/SOURCES.txt
 sws_metrics.egg-info/dependency_links.txt

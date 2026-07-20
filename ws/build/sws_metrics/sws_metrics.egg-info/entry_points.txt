@@ -4,4 +4,5 @@ gaze_estimator = sws_metrics.gaze_estimator:main
 interaction_freq = sws_metrics.interaction_freq:main
 isolation_detect = sws_metrics.isolation_detect:main
 sws_aggregator = sws_metrics.sws_aggregator:main
+vocal_engagement = sws_metrics.vocal_engagement:main
 
