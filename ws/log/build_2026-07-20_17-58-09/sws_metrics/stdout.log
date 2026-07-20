@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing sws_metrics.egg-info/PKG-INFO
+writing dependency_links to sws_metrics.egg-info/dependency_links.txt
+writing entry points to sws_metrics.egg-info/entry_points.txt
+writing requirements to sws_metrics.egg-info/requires.txt
+writing top-level names to sws_metrics.egg-info/top_level.txt
+reading manifest file 'sws_metrics.egg-info/SOURCES.txt'
+writing manifest file 'sws_metrics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/exchange/ws/install/sws_metrics/lib/python3.10/site-packages/sws-metrics.egg-link (link to .)
+Installing fake_hri_pub script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+Installing gaze_estimator script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+Installing interaction_freq script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+Installing sws_aggregator script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+
+Installed /home/user/exchange/ws/build/sws_metrics
+running symlink_data

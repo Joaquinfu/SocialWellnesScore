@@ -1,5 +1,6 @@
 [console_scripts]
 fake_hri_pub = sws_metrics.fake_hri_pub:main
 gaze_estimator = sws_metrics.gaze_estimator:main
+interaction_freq = sws_metrics.interaction_freq:main
 sws_aggregator = sws_metrics.sws_aggregator:main
 

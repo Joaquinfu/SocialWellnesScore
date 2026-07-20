@@ -28,7 +28,7 @@ setup(
             # 'proximity_node   = sws_metrics.proximity_node:main',
 
             # Node 3 — interaction frequency (add when built)
-            # 'interaction_freq = sws_metrics.interaction_freq:main',
+            'interaction_freq = sws_metrics.interaction_freq:main',
 
             # Node 4 — isolation detection (add when built)
             # 'isolation_detect = sws_metrics.isolation_detect:main',

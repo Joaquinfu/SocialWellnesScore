@@ -12,6 +12,7 @@ resource/sws_metrics
 sws_metrics/__init__.py
 sws_metrics/fake_hri_pub.py
 sws_metrics/gaze_estimator.py
+sws_metrics/interaction_freq.py
 sws_metrics/sws_aggregator.py
 sws_metrics.egg-info/PKG-INFO
 sws_metrics.egg-info/SOURCES.txt
