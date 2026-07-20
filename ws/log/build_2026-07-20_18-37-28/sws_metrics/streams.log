@@ -1,0 +1,23 @@
+[0.453s] Invoking command in '/home/user/exchange/ws/build/sws_metrics': PYTHONPATH=/home/user/exchange/ws/build/sws_metrics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/sws_metrics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/exchange/ws/build/sws_metrics/build --no-deps symlink_data
+[0.593s] running develop
+[0.620s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[0.620s]   warnings.warn(
+[0.665s] running egg_info
+[0.665s] writing sws_metrics.egg-info/PKG-INFO
+[0.665s] writing dependency_links to sws_metrics.egg-info/dependency_links.txt
+[0.665s] writing entry points to sws_metrics.egg-info/entry_points.txt
+[0.666s] writing requirements to sws_metrics.egg-info/requires.txt
+[0.666s] writing top-level names to sws_metrics.egg-info/top_level.txt
+[0.667s] reading manifest file 'sws_metrics.egg-info/SOURCES.txt'
+[0.667s] writing manifest file 'sws_metrics.egg-info/SOURCES.txt'
+[0.668s] running build_ext
+[0.668s] Creating /home/user/exchange/ws/install/sws_metrics/lib/python3.10/site-packages/sws-metrics.egg-link (link to .)
+[0.669s] Installing fake_hri_pub script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+[0.669s] Installing gaze_estimator script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+[0.669s] Installing interaction_freq script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+[0.669s] Installing isolation_detect script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+[0.669s] Installing sws_aggregator script to /home/user/exchange/ws/install/sws_metrics/lib/sws_metrics
+[0.670s] 
+[0.670s] Installed /home/user/exchange/ws/build/sws_metrics
+[0.670s] running symlink_data
+[0.682s] Invoked command in '/home/user/exchange/ws/build/sws_metrics' returned '0': PYTHONPATH=/home/user/exchange/ws/build/sws_metrics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exchange/ws/install/sws_metrics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/exchange/ws/build/sws_metrics/build --no-deps symlink_data

@@ -31,7 +31,7 @@ setup(
             'interaction_freq = sws_metrics.interaction_freq:main',
 
             # Node 4 — isolation detection (add when built)
-            # 'isolation_detect = sws_metrics.isolation_detect:main',
+             'isolation_detect = sws_metrics.isolation_detect:main',
 
              # Node 5 — aggregator (add when all 4 nodes are verif))
              'sws_aggregator   = sws_metrics.sws_aggregator:main',
