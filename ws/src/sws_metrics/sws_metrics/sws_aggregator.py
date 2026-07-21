@@ -26,7 +26,7 @@ class SwsAggregator(Node):
         # --- subscriptions: (type, topic, callback, queue) ---
         self.create_subscription(IdsList, '/humans/faces/tracked', self.on_faces, 10)
         self.create_subscription(Float32, '/sws/fake/distance', self.on_distance, 10)
-        self.create_subscription(Bool, '/sws/fake/gaze_at_robot', self.on_gaze, 10)
+        self.create_subscription(Bool, '/sws/is_looking_at_robot', self.on_gaze, 10)
 
         self.score_pub = self.create_publisher(Float32, '/sws/score', 10)
 
