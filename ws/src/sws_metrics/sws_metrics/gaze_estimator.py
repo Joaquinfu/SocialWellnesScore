@@ -256,6 +256,7 @@ class GazeEstimator(Node):
         """
         # No faces detected — publish zero score
         faces = self.hri_listener.faces
+        self.get_logger().info(f'listener faces: {list(faces.keys())}', throttle_duration_sec=2.0)
         if not faces:
             self.pub_score.publish(Float32(data=0.0))
             self.pub_looking.publish(Bool(data=False))

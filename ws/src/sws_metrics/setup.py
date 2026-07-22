@@ -40,6 +40,8 @@ setup(
 	    
             # Node 7 - vocal_engagment
 	      'vocal_engagement = sws_metrics.vocal_engagement:main',
+	    # Node 8 - head_gaze
+	      'head_gaze = sws_metrics.head_gaze:main',
         ],
     },
 )
