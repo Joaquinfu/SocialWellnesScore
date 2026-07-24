@@ -25,7 +25,7 @@ setup(
 	    'fake_hri_pub     = sws_metrics.fake_hri_pub:main' ,
 
             # Node 2 — proximity (add when built)
-            # 'proximity_node   = sws_metrics.proximity_node:main',
+            'proximity_node   = sws_metrics.proximity_node:main',
 
             # Node 3 — interaction frequency (add when built)
             'interaction_freq = sws_metrics.interaction_freq:main',
